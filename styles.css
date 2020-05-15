@@ -1,0 +1,193 @@
+/* This is a CSS comment. Put your CSS styling below this line */
+* {
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+
+
+li, a, button {
+font-family: Montserrat, sans-serif;
+font-weight: 500; 
+font-size: 16px;
+color: #fff;
+text-decoration: none;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  background-color:#fff;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.logo{
+cursor: pointer;
+width: 70px;
+height: auto;
+float: left;
+}
+
+.nav-links{
+  list-style: none;
+   
+}
+
+.nav-links li{
+
+  display: inline-block;
+  padding: 0px 20px; 
+  
+}
+
+.nav-links li a{
+  transition: all 0.3s ease 0s;
+  color: #000;
+
+  
+}
+
+.nav-links li a:hover{
+  transition: all 0.3s ease 0s;
+  color: #777;
+    text-decoration-line: underline; 
+    text-decoration-color:#FFC4AF ;
+
+
+}
+
+button{
+  padding: 9px 25px;
+  background-color:#FFC4AF;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover{
+  background-color: rgba(68, 68, 68, 0.8);
+}
+
+
+
+.bg{
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  opacity: 0.7;
+}
+
+.front .bigtext{
+
+font-family: Montserrat, sans-serif;
+font-weight: 500; 
+font-size: 16px;
+color: #000;
+text-decoration: none;
+
+
+        position: absolute;
+    
+        left: 0;
+        right: 0;
+        top: 20%; 
+        text-align: center;
+  width: 600px;
+  height: 300px;
+  margin: 20% 30%;
+
+
+}
+
+.front .bigtext a{
+  font-weight: 800; 
+color:#FFC4AF;
+}
+
+
+.front .bigtext a:hover{
+color:#777 ;
+text-decoration: underline;
+text-decoration-color:#FFC4AF;
+}
+
+
+.feed{
+text-align: center;
+font-family: Montserrat, sans-serif;
+font-weight: 500; 
+font-size: 14px;
+color: #000;
+text-decoration: none;
+margin: 17px;
+left: 0;
+right: 0;
+top: 20%; 
+        
+
+}
+
+div.gallery {
+
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+flex-container:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+font-weight: 500; 
+font-size: 16px;
+color: #000;
+text-decoration: none;
+
+}
+
+footer{
+
+    padding: 15px;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+font-weight: 500; 
+font-size: 16px;
+color: #000;
+text-decoration: none;
+
+}
+
+
+footer li{
+font-family: Montserrat, sans-serif;
+font-weight: 500; 
+font-size: 16px;
+color: #000;
+text-decoration: none;
+
+}
